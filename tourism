@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tourism</title>
+  <link rel="stylesheet" href="c.css">
+</head>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7fafc;
+  color: #222;
+}
+header {
+  background: #2196f3;
+  color: white;
+  padding: 2em 0 1em 0;
+  text-align: center;
+}
+nav {
+  background: #1976d2;
+  text-align: center;
+  padding: 0.5em 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.5em;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 600px;
+  margin: 2em auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2em;
+}
+.destinations {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.destinations li {
+  background: #e3f2fd;
+  padding: 1em 2em;
+  border-radius: 6px;
+}
+footer {
+  background: #1976d2;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+<body>
+  <header>
+    <h1>Welcome to Travel Explorer</h1>
+    <p>Your journey starts here.</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Popular Destinations</h2>
+      <ul class="destinations">
+        <li>Paris</li>
+        <li>Tokyo</li>
+        <li>New York</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
